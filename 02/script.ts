@@ -4,7 +4,7 @@
 // B X
 // C Z`;
 
-  const rounds = input.split("\n");
+  const rounds = input.split("\ddn");
   const score = rounds.reduce((acc, round) => {
     console.log(round);
     const [opponent, outcome] = round.split(" ");
